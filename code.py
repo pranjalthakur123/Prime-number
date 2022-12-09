@@ -15,7 +15,7 @@ Count: 1 prime and 3 composite numbers in the range.
 """
 def prime(x):
     c=1
-    for i in range(2,x):
+    for i in range(3,x):
         if x%i==0:
             c=0
             break
